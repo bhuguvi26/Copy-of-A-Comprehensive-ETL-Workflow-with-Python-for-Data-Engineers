@@ -1,0 +1,21 @@
+{"name":"jack","height":68.70,"weight":123.30}
+{"name":"tom","height":69.80,"weight":141.49}
+{"name":"tracy","height":70.01,"weight":136.46}
+{"name":"john","height":67.90,"weight":112.37}
+
+
+
+AWS_ACCESS_KEY = "AKIAXJ6ZHROTHSV54HF7"
+AWS_SECRET_KEY = "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"
+AWS_BUCKET = "bhuguvibucket"
+RAW_KEY = "etl/raw_data.csv"
+TRANSFORM_KEY = "etl/transformed_data.csv"
+
+RDS_HOST = "bhuguvidb.cd6ku6emavna.ap-southeast-2.rds.amazonaws.com"
+RDS_PORT = 3306
+RDS_USER = "admin"
+RDS_PASS = "Projectmukkiyam"
+RDS_DB = "bhuguvidb"
+
+LOG_FILE_PATH = "etl_run.log"
+log_s3_key = f"etl/logs/etl_log_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.log"
